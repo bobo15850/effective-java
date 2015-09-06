@@ -12,7 +12,8 @@ public class SingletonTest_03 implements Serializable {
 	private static SingletonTest_03 instance;
 
 //	private transient int i;
-//	private transient String s;
+	private transient String s;
+	
 
 	private SingletonTest_03() {
 	}
