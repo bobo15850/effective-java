@@ -11,8 +11,8 @@ public class SingletonTest_03 implements Serializable {
 	private static final long serialVersionUID = 1L;
 	private static SingletonTest_03 instance;
 
-	private transient int i;
-	private transient String s;
+//	private transient int i;
+//	private transient String s;
 
 	private SingletonTest_03() {
 	}
